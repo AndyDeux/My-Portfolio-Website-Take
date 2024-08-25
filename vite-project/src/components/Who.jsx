@@ -109,16 +109,16 @@ const Who = () => {
                   <ambientLight intensity={3} />
                   <directionalLight position={[3, 2, 1]} />
                   <Cube />
-                  <OrbitControls enableZoom={false} autoRotate enablePan={false} />
+                  <OrbitControls enableZoom={false} autoRotate  />
             </Canvas>
             </Left>
             <Right>
-                <Title>Exploring new perspectives, embracing challenges.</Title>
+                <Title>Artist, Coder, Creator — Wearing many hats, mastering them all.</Title>
                 <WhatWeDo>
                   <Line src="./img/line.png"/>
                   <Subtitle>What drives me?</Subtitle>
                 </WhatWeDo>
-                <Desc>Curiosity and a passion for learning.</Desc>
+                <Desc>Exploring new perspectives, embracing challenges.</Desc>
                 <Button onClick={scrollToWorks}>See my achievements</Button>
             </Right>
           </Container>
