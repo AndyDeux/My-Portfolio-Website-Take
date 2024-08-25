@@ -1,6 +1,6 @@
 {
   "author": "Andrija Gajic",
-  "description": "A responsive web portoflio with ReactJS, ThreeJS, Drei, React-Three-Fiber and Styled-Components",
+  "description": "A responsive web portfolio with ReactJS, ThreeJS, Drei, React-Three-Fiber and Styled-Components",
   "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
