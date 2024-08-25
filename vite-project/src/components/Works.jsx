@@ -53,7 +53,7 @@ const Left = styled.div`
 
   @media only screen and (max-width: 768px) {
     height: 30%;
-    padding: 20px;
+    padding-top: 20px;
     justify-content: center;
   }
 `;
@@ -124,6 +124,12 @@ const ArrowButton = styled(FaArrowCircleRight)`
 
 const Right = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    height: 30%;
+    justify-content: center;
+    flex: 2;
+  }
 `;
 
 const Works = () => {
