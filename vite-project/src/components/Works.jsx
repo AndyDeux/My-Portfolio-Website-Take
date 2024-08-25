@@ -33,6 +33,7 @@ const Section = styled.div`
   color: black;
   font-size: 14px;
   font-weight: 300;
+  -webkit-tap-highlight-color: transparent;
 `;
 
 const Container = styled.div`

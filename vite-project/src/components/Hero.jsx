@@ -7,6 +7,7 @@ import './canvas.css';
 
 
 const Section = styled.div`
+  -webkit-tap-highlight-color: transparent;
   height: 100vh;
   scroll-snap-align: center;
   overflow-y: auto;

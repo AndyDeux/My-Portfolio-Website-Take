@@ -6,6 +6,7 @@ import { OrbitControls } from '@react-three/drei';
 import './canvas.css';
 
 const Section =  styled.div`
+  -webkit-tap-highlight-color: transparent;
   height: 100%;
   scroll-snap-align: center;
   display: flex;

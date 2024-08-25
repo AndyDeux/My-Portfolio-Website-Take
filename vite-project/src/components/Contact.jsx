@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Map from './Map'
 
 const Section =  styled.div`
+  -webkit-tap-highlight-color: transparent;
   height: 100vh;
   scroll-snap-align: center;
 `;
